@@ -4,15 +4,14 @@
         margin:20px 0 !important;
     }
     .navbar-nav{
-      
-        & a{
+        .nav-link.active{
+            color: $color_bck1 !important;
+        }
+        & a {
             text-align: center !important;
+            color: $color_bck1;
           }
-        .nav-item{
-            margin-left: 100px !important;
-
-           }
-        } 
+        }
     /*PRODUCTOS*/
     .main__img__conteiner--muestra{
         width: 100%;
@@ -67,15 +66,14 @@
     .d-flex{
         margin:20px 0 !important;
     }
-                .navbar-nav{
-                 
-                    & a{
+                 .navbar-nav{
+                    .nav-link.active{
+                        color: $color_bck1 !important;
+                    }
+                    & a {
                         text-align: center !important;
+                        color: $color_bck1;
                       }
-                    .nav-item{
-                        margin-left: 100px !important;
-                       
-                       }
                     }
      /*PRODUCTOS*/                    
     .container__main{

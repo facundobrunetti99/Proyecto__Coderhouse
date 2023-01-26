@@ -1,27 +1,24 @@
 .navbar{
     padding: 0 !important;
     .container-fluid{
-        background-color: $color_bck;
-        border-bottom: 2px solid $color_texto;
-         img{
-             width: 55% !important;
-         }
-        .collapse{
+        img{
+            width: 55%;
+        }
+        border-bottom: 1px solid $color_texto;
+        background-color: $color_bck !important;
+        .collapse {
+            margin: auto;
             .navbar-nav{
-                margin-left: -50px !important;
                 .nav-item{
-                    margin: 15px;
                     .nav-link{
-                        margin-left: -30px !important;
-                        color:$color_bck1 !important;
-                        font-size: 20px !important;
-                        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
-                         &:hover{
-                            border-bottom:0.5px solid #fff !important;
+                        color: $color_bck1;
+                        font-size: 18px;
+                        &:hover{
+                            border-bottom: 0.5mm solid #fff;
+                        }
                     }
-                    }   
-                   }
                 }
+            }
             .d-flex{
                 .btn-outline-success{
                     --bs-btn-color: #ffff !important;
