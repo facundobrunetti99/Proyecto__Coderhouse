@@ -12,18 +12,18 @@
         font-size: 18px; }
         .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
           border-bottom: 0.5mm solid #fff; }
-      .navbar .container-fluid .collapse .d-flex .btn-outline-success {
-        --bs-btn-color: #ffff !important;
-        --bs-btn-border-color: $color_texto !important;
-        --bs-btn-hover-color: #fff !important;
-        --bs-btn-hover-bg: $color_texto !important;
-        --bs-btn-hover-border-color: #fff !important;
-        --bs-btn-active-bg: #000000 !important;
-        --bs-btn-active-border-color: $color_texto !important; }
-      .navbar .container-fluid .collapse .d-flex .btn {
-        font-size: 20px !important;
-        margin-right: 10px !important;
-        border: 1px solid #fff !important; }
+    .navbar .container-fluid .btn-outline-success {
+      --bs-btn-color: #ffff !important;
+      --bs-btn-border-color: $color_texto !important;
+      --bs-btn-hover-color: #fff !important;
+      --bs-btn-hover-bg: $color_texto !important;
+      --bs-btn-hover-border-color: #fff !important;
+      --bs-btn-active-bg: #000000 !important;
+      --bs-btn-active-border-color: $color_texto !important; }
+    .navbar .container-fluid .btn {
+      font-size: 20px !important;
+      margin-right: 10px !important;
+      border: 1px solid #fff !important; }
 
 .footer {
   background-color: #ff8080;
@@ -144,48 +144,46 @@ main .main__h2--title {
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 10px; }
-  .main__register .contenedor__registrar {
-    padding: 80px !important; }
-    .main__register .contenedor__registrar .main__login__contenedor {
-      margin: 40px auto;
-      width: 100%;
-      height: 100%;
-      padding-top: 80px;
-      background-color: #444444;
-      margin: auto;
-      text-align: center; }
-      .main__register .contenedor__registrar .main__login__contenedor .main__h2--login {
-        font-size: 30px;
-        color: #fff; }
-      .main__register .contenedor__registrar .main__login__contenedor .submit {
-        margin: 17px; }
-        .main__register .contenedor__registrar .main__login__contenedor .submit .main__sumbit {
-          padding: 20px;
-          width: 70%; }
-      .main__register .contenedor__registrar .main__login__contenedor .main__calendario {
-        font-size: 25px;
-        color: #fff;
-        padding: 15px; }
-      .main__register .contenedor__registrar .main__login__contenedor .main__sx {
-        padding: 10px;
-        color: #fff;
-        background-color: #444444;
-        margin: 10px; }
-        .main__register .contenedor__registrar .main__login__contenedor .main__sx .main__sx--title {
-          padding: 10px;
-          color: #fff; }
-        .main__register .contenedor__registrar .main__login__contenedor .main__sx .main__sumbit--cal {
-          margin: 10px 4px 10px 10px; }
-        .main__register .contenedor__registrar .main__login__contenedor .main__sx label {
-          display: inline-block;
-          margin: 10px; }
-      .main__register .contenedor__registrar .main__login__contenedor .main__buttom {
+  .main__register .contenedor__registrar .main__login__contenedor {
+    margin: 40px auto;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    background-color: #444444;
+    margin: auto;
+    text-align: center; }
+    .main__register .contenedor__registrar .main__login__contenedor .main__h2--login {
+      font-size: 30px;
+      color: #fff; }
+    .main__register .contenedor__registrar .main__login__contenedor .submit {
+      margin: 17px; }
+      .main__register .contenedor__registrar .main__login__contenedor .submit .main__sumbit {
         padding: 20px;
-        background: black;
-        font-size: 20px;
-        color: #fff;
-        border: 1px solid #faebd7;
-        margin-bottom: 10px; }
+        width: 70%; }
+    .main__register .contenedor__registrar .main__login__contenedor .main__calendario {
+      font-size: 25px;
+      color: #fff;
+      padding: 15px; }
+    .main__register .contenedor__registrar .main__login__contenedor .main__sx {
+      padding: 10px;
+      color: #fff;
+      background-color: #444444;
+      margin: 10px; }
+      .main__register .contenedor__registrar .main__login__contenedor .main__sx .main__sx--title {
+        padding: 10px;
+        color: #fff; }
+      .main__register .contenedor__registrar .main__login__contenedor .main__sx .main__sumbit--cal {
+        margin: 10px 4px 10px 10px; }
+      .main__register .contenedor__registrar .main__login__contenedor .main__sx label {
+        display: inline-block;
+        margin: 10px; }
+    .main__register .contenedor__registrar .main__login__contenedor .main__buttom {
+      padding: 20px;
+      background: black;
+      font-size: 20px;
+      color: #fff;
+      border: 1px solid #faebd7;
+      margin-bottom: 10px; }
 
 .contenedor__nosotros {
   margin-top: 40px;
@@ -242,15 +240,17 @@ main .main__h2--title {
       margin: 0;
       background-color: #f1eded; }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   /*HEADER*/
   .d-flex {
     margin: 20px 0 !important; }
   .navbar-nav .nav-link.active {
-    color: #faebd7 !important; }
+    color: #faebd7 !important;
+    font-size: 18px !important; }
   .navbar-nav a {
     text-align: center !important;
-    color: #faebd7; }
+    color: #faebd7;
+    font-size: 18px !important; }
   /*PRODUCTOS*/
   .main__img__conteiner--muestra {
     width: 100%;
@@ -276,24 +276,21 @@ main .main__h2--title {
   .main__equipo--img {
     width: 70%;
     border-radius: 50%; }
-  /*REGISTRAR*/
-  .main__sumbit {
-    width: 90%; }
-  .contenedor__registrar {
-    padding: 30px !important; }
   /*FOOTER*/
   .footer__p {
     font-size: 15px; } }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 768px) {
   /*HEADER*/
   .d-flex {
     margin: 20px 0 !important; }
   .navbar-nav .nav-link.active {
-    color: #faebd7 !important; }
+    color: #faebd7 !important;
+    font-size: 18px; }
   .navbar-nav a {
     text-align: center !important;
-    color: #faebd7; }
+    color: #faebd7;
+    font-size: 18px; }
   /*PRODUCTOS*/
   .container__main {
     display: flex;
@@ -319,7 +316,8 @@ main .main__h2--title {
     border-radius: 50%; }
   /*REGISTRAR*/
   .contenedor__registrar {
-    padding: 30px 0 !important; }
+    padding: 30px 0 !important;
+    width: 100%; }
   /*FOOTER*/
   .footer__p {
     font-size: 15px; } }

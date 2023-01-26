@@ -1,15 +1,18 @@
-@media screen and (max-width: 768px){
+@media (min-width: 768px)and(max-width: 1024px ){
     /*HEADER*/ 
     .d-flex{
         margin:20px 0 !important;
     }
-    .navbar-nav{
+    .navbar-nav{ 
         .nav-link.active{
             color: $color_bck1 !important;
+            font-size: 18px !important;
         }
+       
         & a {
             text-align: center !important;
             color: $color_bck1;
+            font-size: 18px !important;
           }
         }
     /*PRODUCTOS*/
@@ -45,23 +48,13 @@
     .main__equipo--img{
         width: 70%;
         border-radius: 50%;
-    }
-    
-    /*REGISTRAR*/
-
-    .main__sumbit{
-        width: 90%;
-    }
-    .contenedor__registrar{
-        padding: 30px !important;
-    }
+    } 
     /*FOOTER*/
     .footer__p{
     font-size: 15px;
+        }
 }
-}
-
-@media screen and (max-width:320px){
+@media (min-width:320px)and(max-width:768px){
     /*HEADER*/  
     .d-flex{
         margin:20px 0 !important;
@@ -69,10 +62,12 @@
                  .navbar-nav{
                     .nav-link.active{
                         color: $color_bck1 !important;
+                        font-size: 18px;
                     }
                     & a {
                         text-align: center !important;
                         color: $color_bck1;
+                        font-size: 18px;
                       }
                     }
      /*PRODUCTOS*/                    
@@ -108,7 +103,9 @@
     /*REGISTRAR*/
     .contenedor__registrar{
         padding: 30px 0 !important;
+        width: 100%;
     }
+   
      /*FOOTER*/
      .footer__p{
         font-size: 15px;

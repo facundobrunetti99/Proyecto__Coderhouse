@@ -19,22 +19,20 @@
                     }
                 }
             }
-            .d-flex{
-                .btn-outline-success{
-                    --bs-btn-color: #ffff !important;
-                    --bs-btn-border-color: $color_texto !important;
-                    --bs-btn-hover-color: #fff !important;
-                    --bs-btn-hover-bg: $color_texto !important;
-                    --bs-btn-hover-border-color: #fff !important;
-                    --bs-btn-active-bg: #000000 !important;
-                    --bs-btn-active-border-color: $color_texto !important;  
-                }
-                .btn{
-                    font-size: 20px !important;
-                    margin-right: 10px !important;
-                    border: 1px solid #fff !important;
-                }
-            }
         }
+        .btn-outline-success{
+        --bs-btn-color: #ffff !important;
+        --bs-btn-border-color: $color_texto !important;
+        --bs-btn-hover-color: #fff !important;
+        --bs-btn-hover-bg: $color_texto !important;
+        --bs-btn-hover-border-color: #fff !important;
+        --bs-btn-active-bg: #000000 !important;
+        --bs-btn-active-border-color: $color_texto !important;  
+            }
+        .btn{
+        font-size: 20px !important;
+        margin-right: 10px !important;
+        border: 1px solid #fff !important;
+            }
     }
 }
