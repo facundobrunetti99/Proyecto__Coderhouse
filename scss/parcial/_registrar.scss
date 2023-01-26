@@ -1,0 +1,62 @@
+.main__register{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content:center ;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    .contenedor__registrar{
+        padding: 80px !important;
+        .main__login__contenedor{
+            margin: 40px auto;
+             width: 100%;
+             height: 100%;
+             padding-top: 80px;
+             background-color: $color_texto;
+            margin: auto;
+             text-align: center;
+             .main__h2--login{
+                font-size: 30px;
+                color: #fff;
+            }
+            .submit{
+                margin: 17px;
+                .main__sumbit{
+                    padding: 20px;
+                    width: 70%;
+                }   
+            }
+            .main__calendario{
+                font-size: 25px;
+                color: #fff;
+                padding: 15px;
+            }
+            .main__sx{
+                padding: 10px;
+                color: #fff;
+                background-color: $color_texto;
+                margin:10px;
+                .main__sx--title{
+                    padding: 10px;
+                    color: #fff;
+                }
+                .main__sumbit--cal{
+                        margin: 10px 4px 10px 10px;               
+                } 
+                label{
+                    display: inline-block;
+                    margin: 10px;
+                }     
+            }
+            .main__buttom{
+                padding: 20px;
+                background: rgb(0, 0, 0);
+                font-size: 20px;
+                color: #fff;
+                border: 1px solid #faebd7;  
+                margin-bottom: 10px;
+            }
+         } 
+    }
+  }

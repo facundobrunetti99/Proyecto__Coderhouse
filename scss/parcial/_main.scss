@@ -1,0 +1,49 @@
+*{
+    
+    font-family: $font;
+}
+body{
+    background-color: $color_bck1 !important;
+}
+main{
+    .main__title{
+        text-align: center; 
+        .h1-title{
+            margin-top: 40px;
+            color: $color_texto;
+            font-size: 50px;
+        }
+        .h2-title{
+            font-size: 30px;
+            color: $color_texto;
+        }
+    }
+    .container-xl{
+        .main__img__conteiner--muestra{
+            width: 100%;
+            height: 85%;
+        }
+        .main__muestra--divp{
+            width: auto;
+            position: relative;
+            text-align: center;
+            .main__precio{
+                position: absolute;
+                margin-top: -50px;
+                background-color: $color_bck;
+                display: none;
+                color: #fff;
+                padding:10px;
+                border:1px solid $color_bck1;
+                width: 100%;
+                opacity: 85%;
+            }
+        }
+        .main__muestra_cont:hover .main__precio{
+            display: block;
+        }
+    }
+    .main__h2--title{
+       @include h2-t;
+    }
+}

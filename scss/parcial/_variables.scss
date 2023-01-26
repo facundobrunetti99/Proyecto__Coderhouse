@@ -1,0 +1,16 @@
+$color_texto:#444444;
+$color_bck: rgb(255, 128, 128);
+$color_bck1:#faebd7;
+$font: Georgia, 'Times New Roman', Times, serif !important;
+@mixin h2-t{
+    text-align: center;
+    font-size: 25px;
+    color:  $color_bck1;
+    padding: 6px;
+    background-color: $color_bck;
+    border-top:2px solid $color_texto;
+    border-bottom:2px solid $color_texto;
+    margin:40px 18px;
+}
+
+
