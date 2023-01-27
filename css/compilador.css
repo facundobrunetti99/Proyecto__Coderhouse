@@ -240,7 +240,7 @@ main .main__h2--title {
       margin: 0;
       background-color: #f1eded; }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   /*HEADER*/
   .d-flex {
     margin: 20px 0 !important; }
@@ -321,3 +321,14 @@ main .main__h2--title {
   /*FOOTER*/
   .footer__p {
     font-size: 15px; } }
+
+@media screen and (min-width: 768px) {
+  .d-flex {
+    margin: 20px 0 !important; }
+  .navbar-nav .nav-link.active {
+    color: #faebd7 !important;
+    font-size: 18px !important; }
+  .navbar-nav a {
+    text-align: center !important;
+    color: #faebd7;
+    font-size: 18px !important; } }

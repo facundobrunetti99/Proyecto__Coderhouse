@@ -1,4 +1,4 @@
-@media (min-width: 768px)and(max-width: 1024px ){
+@media screen and (max-width: 768px){
     /*HEADER*/ 
     .d-flex{
         margin:20px 0 !important;
@@ -71,7 +71,7 @@
                       }
                     }
      /*PRODUCTOS*/                    
-    .container__main{
+     .container__main{
         display: flex;
         flex-direction: column;
         text-align:center;
@@ -88,7 +88,7 @@
                 display: block;
             }   
         }     
-    }   
+    }
     /*NOSOTROS*/
     .main__equipo{
         display: flex;
@@ -110,4 +110,21 @@
      .footer__p{
         font-size: 15px;
     }
+}
+@media screen and (min-width:768px) {
+    .d-flex{
+        margin:20px 0 !important;
+    }
+    .navbar-nav{ 
+        .nav-link.active{
+            color: $color_bck1 !important;
+            font-size: 18px !important;
+        }
+       
+        & a {
+            text-align: center !important;
+            color: $color_bck1;
+            font-size: 18px !important;
+          }
+        }
 }
