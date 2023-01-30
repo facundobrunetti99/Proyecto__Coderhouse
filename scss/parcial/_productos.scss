@@ -4,6 +4,7 @@
     grid-template-columns:1fr 3fr ;
     grid-template-rows: 1fr;
     grid-template-areas: "menu productos";
+    row-gap: 10px !important; 
     margin-top: 30px;
     .main__categoria{
      grid-area: menu;
@@ -26,14 +27,21 @@
     }
     .container-xl{
         grid-area: productos;
+          
+    .border1{
+        border: 1px solid #202020;
+        text-align: center;
+        padding: 5px;
+        background-color: #fff;
+    }
         .main__catalogo--parrafo{
-            width: 100%;
+            width: 90%;
             background-color: #202020;
             color: #fff;
             text-align: center;
             padding: 10px;
             opacity: 86%; 
-            margin-top: -110px;
+            margin: 10px auto;
             .main__catalogo--comprar{
                 background-color: rgb(255,0,0);
                 color: $color_bck1;
@@ -44,8 +52,9 @@
             }
         }
             .main__img__conteiner--muestra{
-                width: 100%;
-                height: 85%;
+                width: 90%;
+                height: 150px;
+                object-fit: cover;
             }
     }
 }
