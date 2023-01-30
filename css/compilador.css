@@ -286,6 +286,7 @@ main .main__h2--title {
       display: flex;
       flex-direction: column; }
       .container__main .container-xl .main__div-cat {
+        margin: 10px auto;
         display: grid;
         grid-template-columns: 1fr 3fr;
         height: 220px; }
