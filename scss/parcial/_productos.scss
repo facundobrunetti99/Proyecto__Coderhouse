@@ -39,9 +39,12 @@
             background-color: #fff;
             justify-content: space-between;
             align-items: center;
-            
+            &:hover{
+           
+                box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            }
             .main__catalogo--parrafo{
-                border-left:1px solid #4444;
+                border-left:1px solid $color_texto;
                 width: 90%;
                 color: $color_texto;
                 padding: 10px;
@@ -51,8 +54,11 @@
                     color: #fff;
                     border: $color_texto;
                     padding: 5px 10px;
-                    font-size: 20px;
+                    font-size: 17px;
                     margin-top: 10px;
+                    &:active{
+                        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+                    }
                 }
             }
                 .main__img__conteiner--muestra{

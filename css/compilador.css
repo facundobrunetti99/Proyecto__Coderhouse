@@ -129,8 +129,10 @@ main .main__h2--title {
       background-color: #fff;
       justify-content: space-between;
       align-items: center; }
+      .container__main .container-xl .main__div-cat:hover {
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
       .container__main .container-xl .main__div-cat .main__catalogo--parrafo {
-        border-left: 1px solid #4444;
+        border-left: 1px solid #444444;
         width: 90%;
         color: #444444;
         padding: 10px;
@@ -140,8 +142,10 @@ main .main__h2--title {
           color: #fff;
           border: #444444;
           padding: 5px 10px;
-          font-size: 20px;
+          font-size: 17px;
           margin-top: 10px; }
+          .container__main .container-xl .main__div-cat .main__catalogo--parrafo .main__catalogo--comprar:active {
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2); }
       .container__main .container-xl .main__div-cat .main__img__conteiner--muestra {
         width: 150px;
         height: 150px;
