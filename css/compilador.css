@@ -325,12 +325,13 @@ main .main__h2--title {
       display: flex;
       flex-direction: column; }
       .container__main .container-xl .main__div-cat {
+        margin: 10px auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr;
         height: 350px; }
         .container__main .container-xl .main__div-cat .main__catalogo--parrafo {
-          border-top: 1px solid #4444;
+          border-top: 1px solid #444444;
           border-left: none; }
         .container__main .container-xl .main__div-cat .main__img__conteiner--muestra {
           width: 150px;
@@ -374,6 +375,7 @@ main .main__h2--title {
       display: flex;
       flex-direction: column; }
       .container__main .container-xl .main__div-cat {
+        margin: 10px auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr;
@@ -432,7 +434,8 @@ main .main__h2--title {
       .container__main .container-xl .main__div-cat {
         display: grid;
         grid-template-columns: 1fr 3fr;
-        height: 220px; }
+        height: 220px;
+        margin: 10px auto; }
         .container__main .container-xl .main__div-cat .main__img__conteiner--muestra {
           width: 160px;
           height: 160px;

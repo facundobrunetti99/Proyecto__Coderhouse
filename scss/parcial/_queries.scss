@@ -50,11 +50,8 @@
                       
                         border-radius: 10px;
                     }
-        
                 }
-            
-            }   
-            
+            }       
         }
 }
 
@@ -96,12 +93,13 @@
             display: flex;
             flex-direction: column;
             .main__div-cat{
+                margin: 10px auto;
                 display: grid;
                 grid-template-columns: 1fr;
                 grid-template-rows: 1fr 2fr;
                 height: 350px;
                 .main__catalogo--parrafo{
-                    border-top: 1px solid #4444;
+                    border-top: 1px solid $color_texto;
                     border-left: none;
                 }
                 .main__img__conteiner--muestra{
@@ -162,6 +160,7 @@
             display: flex;
             flex-direction: column;
             .main__div-cat{
+                margin: 10px auto;
                 display: grid;
                 grid-template-columns: 1fr;
                 grid-template-rows: 1fr 2fr;
@@ -243,6 +242,7 @@
                 display: grid;
                 grid-template-columns: 1fr 3fr;
                 height: 220px;
+                margin: 10px auto;
                 .main__img__conteiner--muestra{
                     width: 160px;
                     height: 160px;
