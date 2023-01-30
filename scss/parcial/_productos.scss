@@ -4,7 +4,7 @@
     grid-template-columns:1fr 3fr ;
     grid-template-rows: 1fr;
     grid-template-areas: "menu productos";
-    row-gap: 10px !important; 
+    
     margin-top: 30px;
     .main__categoria{
      grid-area: menu;
@@ -27,34 +27,42 @@
     }
     .container-xl{
         grid-area: productos;
-          
-    .border1{
-        border: 1px solid #202020;
-        text-align: center;
-        padding: 5px;
-        background-color: #fff;
-    }
-        .main__catalogo--parrafo{
-            width: 90%;
-            background-color: #202020;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            opacity: 86%; 
-            margin: 10px auto;
-            .main__catalogo--comprar{
-                background-color: rgb(255,0,0);
-                color: $color_bck1;
-                border: $color_texto;
-                padding: 5px 10px;
-                font-size: 16px;
-                margin-top: 10px;
-            }
-        }
-            .main__img__conteiner--muestra{
+        display: flex;
+        .main__div-cat{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            border: 1px solid #fff;
+            width: 95%;
+            height: 220px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            background-color: #fff;
+            justify-content: space-between;
+            align-items: center;
+            
+            .main__catalogo--parrafo{
+                border-left:1px solid #4444;
                 width: 90%;
-                height: 150px;
-                object-fit: cover;
+                color: $color_texto;
+                padding: 10px;
+                margin: 10px auto;
+                .main__catalogo--comprar{
+                    background-color: rgb(0, 255, 0);
+                    color: #fff;
+                    border: $color_texto;
+                    padding: 5px 10px;
+                    font-size: 20px;
+                    margin-top: 10px;
+                }
             }
+                .main__img__conteiner--muestra{
+                    width: 150px;
+                    height: 150px;
+                    object-fit: cover;
+                    margin-left: 10px;
+                    border-radius: 10px;
+                }
+        }
+        
     }
 }
