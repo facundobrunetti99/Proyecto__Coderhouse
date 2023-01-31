@@ -381,6 +381,9 @@ main .main__h2--title {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr;
         height: 350px; }
+        .container__main .container-xl .main__div-cat .main__catalogo--parrafo {
+          border-top: 1px solid #444444;
+          border-left: none; }
         .container__main .container-xl .main__div-cat .main__img__conteiner--muestra {
           width: 150px;
           height: 150px;

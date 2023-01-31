@@ -166,7 +166,10 @@
                 grid-template-columns: 1fr;
                 grid-template-rows: 1fr 2fr;
                 height: 350px;
-               
+                .main__catalogo--parrafo{
+                    border-top: 1px solid $color_texto;
+                    border-left: none;
+                }
                 .main__img__conteiner--muestra{
                    
                     width: 150px;
