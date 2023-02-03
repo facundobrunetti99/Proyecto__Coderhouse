@@ -1,23 +1,28 @@
 .navbar{
     padding: 0 !important;
     .container-fluid{
+        .navbar-brand{
+            width: 10% !important;
+        }
         img{
-            width: 55%;
+            width: 100%;
         }
         border-bottom: 1px solid $color_texto;
         background-color: $color_bck !important;
         .collapse {
             margin: auto;
-            .navbar-nav{
-                .nav-item{
+            .navbar-nav{            
+                .nav-item{                 
                     .nav-link{
                         color: $color_bck1;
-                        font-size: 18px;
+                        font-size: 18px;  
                         &:hover{
-                            border-bottom: 0.5mm solid #fff;
+                            border-bottom: 1px transparent red;
                         }
                     }
+
                 }
+              
             }
         }
         .btn-outline-success{
@@ -33,6 +38,11 @@
         font-size: 20px !important;
         margin-right: 10px !important;
         border: 1px solid #fff !important;
+            }
+            .nav-carro{
+                width: 30px;
+                height: 30px;
+                margin-left: 20px;
             }
     }
 }

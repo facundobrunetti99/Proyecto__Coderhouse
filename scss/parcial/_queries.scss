@@ -3,18 +3,33 @@
     .d-flex{
         margin:20px 0 !important;
     }
-    .navbar-nav{ 
-        .nav-link.active{
-            color: $color_bck1 !important;
-            font-size: 18px !important;
+   
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                width: 15% !important;
+            }
+            .navbar-nav{ 
+                .nav-link.active{
+                    color: $color_bck1 !important;
+                    font-size: 18px !important;
+                }
+               
+                & a {
+                    text-align: center !important;
+                    color: $color_bck1;
+                    font-size: 18px !important;
+                  }
+                
+                }
+               
+                .nav-carro{
+                    margin:  auto;
+                }
         }
-       
-        & a {
-            text-align: center !important;
-            color: $color_bck1;
-            font-size: 18px !important;
-          }
-        }
+        
+    }
+   
         /*PRODUCTOS*/
         .container__main{
             display: flex;
@@ -56,22 +71,52 @@
         }
 }
 
+@media screen and (min-width:1025px){
+    .navbar{
+        .container-fluid{
+            .navbar-nav{
+                margin-left: 8%;
+                .nav-link.active{
+                    color: $color_bck1 !important;
+                    font-size: 18px;
+                }
+                & a {
+                    text-align: center !important;
+                    color: $color_bck1;
+                    font-size: 18px !important;
+                  }
+                }
+        }
+    }
+}
 @media (min-width:320px)and(max-width:425px){
     /*HEADER*/  
     .d-flex{
         margin:20px 0 !important;
+    }    
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                width: 25% !important;
+            }
+            .navbar-nav{
+                .nav-link.active{
+                    color: $color_bck1 !important;
+                    font-size: 18px;
+                }
+                & a {
+                    text-align: center !important;
+                    color: $color_bck1;
+                    font-size: 18px;
+                  }
+                }
+
+                .nav-carro{
+                    margin:  auto;
+                }
+        }
     }
-                 .navbar-nav{
-                    .nav-link.active{
-                        color: $color_bck1 !important;
-                        font-size: 18px;
-                    }
-                    & a {
-                        text-align: center !important;
-                        color: $color_bck1;
-                        font-size: 18px;
-                      }
-                    }
+                
      /*PRODUCTOS*/                    
      .container__main{
         display: flex;
@@ -140,6 +185,30 @@
 }
 
 @media (min-width:0px)and(max-width:320px){
+    .d-flex{
+        margin:20px 0 !important;
+    }
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                width: 30% !important;
+            }
+            .navbar-nav{
+                .nav-link.active{
+                    color: $color_bck1 !important;
+                    font-size: 18px;
+                }
+                & a {
+                    text-align: center !important;
+                    color: $color_bck1;
+                    font-size: 18px;
+                  }
+                }
+                .nav-carro{
+                    margin:  auto;
+                }
+        }
+    }
     .container__main{
         display: flex;
         flex-direction: column;
@@ -209,18 +278,28 @@
 @media (min-width:426px)and(max-width:768px){
     .d-flex{
         margin:20px 0 !important;
+    }           .navbar{
+        .container-fluid{
+            .navbar-brand{
+                width: 20% !important;
+            }
+            .navbar-nav{
+                .nav-link.active{
+                    color: $color_bck1 !important;
+                    font-size: 18px;
+                }
+                & a {
+                    text-align: center !important;
+                    color: $color_bck1;
+                    font-size: 18px;
+                  }
+                }
+                .nav-carro{
+                    margin:  auto;
+                }
+        }
     }
-                 .navbar-nav{
-                    .nav-link.active{
-                        color: $color_bck1 !important;
-                        font-size: 18px;
-                    }
-                    & a {
-                        text-align: center !important;
-                        color: $color_bck1;
-                        font-size: 18px;
-                      }
-                    }
+                 
      /*PRODUCTOS*/                    
     .container__main{
         display: flex;

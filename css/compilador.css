@@ -3,15 +3,17 @@
   .navbar .container-fluid {
     border-bottom: 1px solid #444444;
     background-color: #ff8080 !important; }
+    .navbar .container-fluid .navbar-brand {
+      width: 10% !important; }
     .navbar .container-fluid img {
-      width: 55%; }
+      width: 100%; }
     .navbar .container-fluid .collapse {
       margin: auto; }
       .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
         color: #faebd7;
         font-size: 18px; }
         .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
-          border-bottom: 0.5mm solid #fff; }
+          border-bottom: 1px transparent red; }
     .navbar .container-fluid .btn-outline-success {
       --bs-btn-color: #ffff !important;
       --bs-btn-border-color: $color_texto !important;
@@ -24,6 +26,10 @@
       font-size: 20px !important;
       margin-right: 10px !important;
       border: 1px solid #fff !important; }
+    .navbar .container-fluid .nav-carro {
+      width: 30px;
+      height: 30px;
+      margin-left: 20px; }
 
 .footer {
   background-color: #ff8080;
@@ -104,6 +110,9 @@ main .main__h2--title {
   grid-template-areas: "menu productos";
   margin-top: 30px; }
   .container__main .main__categoria {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
     grid-area: menu; }
     .container__main .main__categoria .main__tittle--li {
       list-style: none; }
@@ -115,6 +124,10 @@ main .main__h2--title {
         list-style: none;
         margin-left: -40px;
         padding: 10px; }
+        .container__main .main__categoria .main__tittle--li .main__li--submenu .main__categoria--sel input:checked {
+          background-color: lime; }
+        .container__main .main__categoria .main__tittle--li .main__li--submenu .main__sumbit--cat {
+          margin: 5px; }
   .container__main .container-xl {
     grid-area: productos;
     display: flex; }
@@ -261,13 +274,17 @@ main .main__h2--title {
   /*HEADER*/
   .d-flex {
     margin: 20px 0 !important; }
-  .navbar-nav .nav-link.active {
+  .navbar .container-fluid .navbar-brand {
+    width: 15% !important; }
+  .navbar .container-fluid .navbar-nav .nav-link.active {
     color: #faebd7 !important;
     font-size: 18px !important; }
-  .navbar-nav a {
+  .navbar .container-fluid .navbar-nav a {
     text-align: center !important;
     color: #faebd7;
     font-size: 18px !important; }
+  .navbar .container-fluid .nav-carro {
+    margin: auto; }
   /*PRODUCTOS*/
   .container__main {
     display: flex;
@@ -297,17 +314,32 @@ main .main__h2--title {
           margin: auto;
           border-radius: 10px; } }
 
+@media screen and (min-width: 1025px) {
+  .navbar .container-fluid .navbar-nav {
+    margin-left: 8%; }
+    .navbar .container-fluid .navbar-nav .nav-link.active {
+      color: #faebd7 !important;
+      font-size: 18px; }
+    .navbar .container-fluid .navbar-nav a {
+      text-align: center !important;
+      color: #faebd7;
+      font-size: 18px !important; } }
+
 @media (min-width: 320px) and (max-width: 425px) {
   /*HEADER*/
   .d-flex {
     margin: 20px 0 !important; }
-  .navbar-nav .nav-link.active {
+  .navbar .container-fluid .navbar-brand {
+    width: 25% !important; }
+  .navbar .container-fluid .navbar-nav .nav-link.active {
     color: #faebd7 !important;
     font-size: 18px; }
-  .navbar-nav a {
+  .navbar .container-fluid .navbar-nav a {
     text-align: center !important;
     color: #faebd7;
     font-size: 18px; }
+  .navbar .container-fluid .nav-carro {
+    margin: auto; }
   /*PRODUCTOS*/
   .container__main {
     display: flex;
@@ -359,6 +391,19 @@ main .main__h2--title {
     font-size: 15px; } }
 
 @media (min-width: 0px) and (max-width: 320px) {
+  .d-flex {
+    margin: 20px 0 !important; }
+  .navbar .container-fluid .navbar-brand {
+    width: 30% !important; }
+  .navbar .container-fluid .navbar-nav .nav-link.active {
+    color: #faebd7 !important;
+    font-size: 18px; }
+  .navbar .container-fluid .navbar-nav a {
+    text-align: center !important;
+    color: #faebd7;
+    font-size: 18px; }
+  .navbar .container-fluid .nav-carro {
+    margin: auto; }
   .container__main {
     display: flex;
     flex-direction: column;
@@ -411,13 +456,17 @@ main .main__h2--title {
 @media (min-width: 426px) and (max-width: 768px) {
   .d-flex {
     margin: 20px 0 !important; }
-  .navbar-nav .nav-link.active {
+  .navbar .container-fluid .navbar-brand {
+    width: 20% !important; }
+  .navbar .container-fluid .navbar-nav .nav-link.active {
     color: #faebd7 !important;
     font-size: 18px; }
-  .navbar-nav a {
+  .navbar .container-fluid .navbar-nav a {
     text-align: center !important;
     color: #faebd7;
     font-size: 18px; }
+  .navbar .container-fluid .nav-carro {
+    margin: auto; }
   /*PRODUCTOS*/
   .container__main {
     display: flex;
