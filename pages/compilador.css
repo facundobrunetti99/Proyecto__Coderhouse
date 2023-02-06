@@ -13,7 +13,7 @@
         color: #faebd7;
         font-size: 18px; }
         .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
-          opacity: 85%; }
+          border-bottom: 1px transparent red; }
     .navbar .container-fluid .btn-outline-success {
       --bs-btn-color: #ffff !important;
       --bs-btn-border-color: $color_texto !important;

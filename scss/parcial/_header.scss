@@ -15,10 +15,12 @@
                 .nav-item{                 
                     .nav-link{
                         color: $color_bck1;
-                        font-size: 18px;  
-                        &:hover{
-                            border-bottom: 1px transparent red;
-                        }
+                        font-size: 18px; 
+                     &:hover{
+                     
+                        opacity: 85%;
+                     }
+                      
                     }
 
                 }
