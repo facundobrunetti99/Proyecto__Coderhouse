@@ -124,8 +124,6 @@ main .main__h2--title {
         list-style: none;
         margin-left: -40px;
         padding: 10px; }
-        .container__main .main__categoria .main__tittle--li .main__li--submenu .main__categoria--sel input:checked {
-          background-color: lime; }
         .container__main .main__categoria .main__tittle--li .main__li--submenu .main__sumbit--cat {
           margin: 5px; }
   .container__main .container-xl {
@@ -254,7 +252,7 @@ main .main__h2--title {
     margin: 20px auto;
     background-color: #f6f6ef; }
     .contenedor__comentarios .main__comentario:hover {
-      border: 2px solid #ffffff; }
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.384); }
     .contenedor__comentarios .main__comentario .comentario__nombre {
       text-align: center; }
     .contenedor__comentarios .main__comentario .img__comentario {

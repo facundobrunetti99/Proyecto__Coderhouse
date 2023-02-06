@@ -9,7 +9,7 @@
         margin:20px auto;
         background-color: #f6f6ef;
         &:hover{
-            border: 2px solid #ffffff;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.384);
         }
         .comentario__nombre{
             text-align: center;
